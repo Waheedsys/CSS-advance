@@ -1,0 +1,58 @@
+
+*{
+    margin: 0;
+}
+body{
+    text-align: center;
+}
+    section{
+    position:relative ;
+    display: inline-block;
+    margin-top: 10rem;
+}
+span{
+    visibility: hidden;
+    width: 10rem;
+    background-color: darkmagenta;
+    padding:1rem;
+    color: aliceblue;
+    border-radius: 0.4rem;
+    text-align: center;
+
+/* postioning  on top */
+    /* position: absolute;
+    z-index: 1;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -5rem; */
+
+/* postioning  on the right */
+    /* position: absolute;
+    z-index: 1;
+    bottom: 100%;
+    top: 10%;
+    left:105%; */
+
+/* postioning  on the bottom */
+    /* position: absolute;
+    z-index: 1;
+    top: 100%;
+    left:50%;
+    margin-left: -5rem; */
+
+    /* positioning on the left */
+    /* position: absolute;
+    z-index: 1;
+    top: 25%;
+    right: 110%; */
+   
+}
+
+section:hover span{
+visibility: visible;
+
+
+}
+
+
+

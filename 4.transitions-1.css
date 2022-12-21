@@ -1,0 +1,21 @@
+a{
+    text-decoration: none;
+    padding:2rem;
+     background-color: tomato;
+     display: inline-block;
+     margin-top: 5rem;
+    color: aliceblue;
+ 
+    /* transition:  background-color 1s; */
+    /* transition: background-color 0.2s, color 1s; */
+
+  transition:all 1s 0.5s;  
+  /* transition-delay: 2s; */
+}
+
+a:hover{
+    background-color: violet;
+    color: rgb(54, 6, 143);
+    text-decoration: underline;
+    
+}

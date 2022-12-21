@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+}
+/* html=:root */
+
+:root{
+    font-size: 62.3%;
+
+    --main-color:red;
+    --font-size: 1.5rem;
+}
+
+section{
+    /* background-color: var(--main-color); */
+    background-image:linear-gradient(to top, rgba(255, 0, 0, 0.336), rgba(0, 0, 255, 0.219), rgba(255, 255, 0, 0.452), rgba(0, 128, 0, 0.308)) ;
+
+    transition: all 0.4s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    position: relative;
+    left: 15rem;
+
+    padding: 1rem;
+    /* calc function */
+    width: calc(100% - 30rem);
+    color: hsla(120, 100%, 25%, 0.5);
+
+}
+section:hover{
+    background-color: blue;
+}
+
+h3{
+
+    font-size: var(--font-size);
+
+}
+

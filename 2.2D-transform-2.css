@@ -1,0 +1,27 @@
+p{
+    width: 20rem;
+    height: 10rem;
+    background-color: tomato;
+    padding: 2rem;
+
+    /* scale x,y (just number) */
+    /* transform: scale(1.5,3); */
+
+    /* rotate (number + degree) */
+    /* transform: rotate(180deg); */
+
+    /* skew x (number + degree)*/
+    /* transform: skewX(12deg); */
+
+    /* skew y (numbeer + degree) */
+    /* transform: skewY(23deg); */
+
+    /* shorthand for skew x,y (numbeer + degree)*/
+    /* transform: skew(23deg, 24deg); */
+
+
+    /* matrix (sclaex(),skewy(),skewx(),scaley(),translatex(),translatey()) */
+
+    transform: matrix(1.1,1,1,0.5,0,0);
+
+}

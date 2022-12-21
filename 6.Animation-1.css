@@ -1,0 +1,60 @@
+section{
+    width: 20rem;
+    height: 20rem;
+    background-color: blueviolet;
+    padding: 1rem;
+    animation: myanime;
+    animation-duration: 5s;
+    margin-bottom: 10rem;
+    position: relative;
+    animation-delay: 2s;
+
+}
+/* @keyframes myanime{
+    from{
+        background-color: rgba(88, 167, 10, 0.527);
+    }
+    to{
+        background-color: lightcoral;
+    }                                       
+} */
+
+@keyframes myanime{
+    0%{
+        background-color:blue;
+        color: aliceblue;
+        left: 0;
+        top:0;
+        opacity: 1;
+        
+    }
+    25%{
+        background-color: chocolate;
+        color: grey;
+        left: 0rem;
+        top:20rem;
+        opacity: 0.8;
+    }
+    50%{
+        background-color: cornflowerblue;
+        color: aliceblue;
+        left: 20rem;
+        top:0;
+        opacity: 0;
+    }
+    75%{
+        background-color: aqua;
+        color: black;
+        left: 20rem;
+        top:20rem;
+        opacity: 0.5;
+    }
+    100%{
+        background-color: yellowgreen;
+        color: crimson;
+        left: 0;
+        top:0;
+        opacity: 1;
+    }
+}
+

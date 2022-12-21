@@ -1,0 +1,21 @@
+section{
+    height: 15rem;
+    width: 20rem;
+    padding: 2rem;
+    background-color: yellowgreen;
+
+    /* translate x(number + unit) */
+    /* transform: translateX(10rem); */
+
+    /* translate y (number + unit)*/
+    /* transform: translateY(10rem) translateX(10rem); */
+
+    /* translate x and y(number + unit) */
+    /* transform: translate(15rem,25rem); */
+
+    /* scale (only numbers are used) */
+    transform: scalex(2);
+    transform: scaleY(3);
+
+
+}

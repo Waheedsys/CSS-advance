@@ -1,0 +1,31 @@
+
+section{
+    border: tomato 0.5rem solid;
+    width: 20rem;
+    perspective: 5rem;
+}
+                                            
+p{
+    height: 20rem;
+    width: 20rem;
+    background-color: teal;
+    
+    /* transform: perspective(20rem)translate3d(2rem, 2rem, 2rem); */
+    
+    transition: all 1s ease-in-out;
+ 
+}
+p:hover{
+    
+    transform: rotate3d(100,100,100,360deg);
+    /* transform: rotateZ(180deg); */
+    /* transform: rotateY(180deg); */
+    /* transform:scale3d(2, 2, 2) rotate3d(0,0,10,18deg); */
+
+}
+
+
+
+
+
+
